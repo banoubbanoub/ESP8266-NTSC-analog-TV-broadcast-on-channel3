@@ -17,15 +17,6 @@
 #endif
 #ifndef ETS_SLC_INUM
 #define ETS_SLC_INUM       1
-class dmastuff
-{
-public:
-	dmastuff(/* args */);
-	~dmastuff();
-};
-
-
-
 #endif
 
 
@@ -142,7 +133,7 @@ public:
 
 
 //From sdio_slv.h
-#include <Arduino.h>
+
 
 struct sdio_queue
 {
